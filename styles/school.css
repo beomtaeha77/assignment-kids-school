@@ -187,7 +187,9 @@ main{
   align-items: center;
   margin-top: 80px;
   margin-bottom: 80px;
-  stroke: rgba(222, 245, 255, 1);
+  background-color: rgba(222, 245, 255, 1);
+  border-radius: 8px;
+  padding: 20px;
  
 }
 .curriculum2{
@@ -195,6 +197,9 @@ main{
   align-items: center;
   margin-top: 80px;
   margin-bottom: 80px;
+  background-color: rgba(255, 244, 220, 1);
+  border-radius: 8px;
+  padding: 20px;
 
 }
 .curriculum3{
@@ -203,6 +208,9 @@ main{
   margin-top: 80px;
   margin-bottom: 80px;
   flex-direction: column;
+  background-color: rgba(242, 232, 255, 1);
+  border-radius: 8px;
+  padding: 20px;
 
 }
 .paragraph{
@@ -297,13 +305,14 @@ main{
   .curriculum{
     margin: 20px;
   }
-  .story2, .story3{
+  /*.story2, .story3{
+    display: flex;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     height: auto;
-    width: 100%;
-    padding-left: 10px;
-  }
+    
+    padding-left: 10px;*/
+  
   .story1{
     display: none;
   }
@@ -324,11 +333,21 @@ main{
   .banner-image{
     margin-left: 50px;
   }
+  .more-stories{
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+  .ending{
+    padding-left: 15px;
+    padding-bottom: 50px;
+      }
+
+    }
   
     
 
 
- }
+ 
   
     
          
